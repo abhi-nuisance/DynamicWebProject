@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="compile">
+<path id="servletPackage">
+	<pathelement path="${C:\Users\abhis\Downloads\javax.servlet-3.0}/javax.servlet-3.0.jar">
+	</pathelement>
+</path>
 <target name="compile">
-	<javac includeantruntime= "false" srcdir="../src/" destdir="../buildoutput" classpath="${jar.dir}">	
+	<javac includeantruntime= "false" srcdir="./src/" destdir="./buildoutput" classpath="servletPackage">	
+	
 	</javac>
 </target>
 </project>
