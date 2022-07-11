@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="compile">
 <target name="compile">
-	<javac includeantruntime= "false" srcdir="../../src/" destdir="buildoutput"></javac>
+	<javac includeantruntime= "false" srcdir="../src/" destdir="../buildoutput" classpath="${jar.dir}">	
+	</javac>
 </target>
 </project>
