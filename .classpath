@@ -13,6 +13,6 @@
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry exported="true" kind="lib" path="C:/Users/abhis/Downloads/javax.servlet-3.0.jar/javax.servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files/Java/jre1.8.0_333/bin/javax.servlet-3.0.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
