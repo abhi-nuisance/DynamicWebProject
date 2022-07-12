@@ -9,7 +9,7 @@
 		</classpath>			
 	</javac>
    <war destfile = "./buildoutput/SimpleDynamicWebProject.war" webxml = "./src/main/webapp/WEB-INF/web.xml">
-    <fileset dir = "./src/main/webapp/WEB-INF">
+    <fileset dir = "./src/main/webapp">
       <include name = "**/*.*"/>
    </fileset>
    </war>
