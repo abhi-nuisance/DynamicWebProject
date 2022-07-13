@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project default="compile">
-
-<target name="compile">
-	<javac includeantruntime= "false" srcdir="./src/" destdir="buildoutput" >	
-		<classpath>
-			<pathelement path="./src/main/webapp/WEB-INF/lib/javax.servlet-3.0.jar">
-			</pathelement>
-		</classpath>			
-	</javac>
-   <war destfile = "./buildoutput/SimpleDynamicWebProject.war" webxml = "./src/main/webapp/WEB-INF/web.xml">
-    <fileset dir = "./src/main/webapp">
-      <include name = "**/*.*"/>
-   </fileset>
-   </war>
-
-</target>
-
+	<target name="compile">
+		<javac includeantruntime= "false" srcdir="./src/" destdir="buildoutput" >	
+			<classpath>
+				<pathelement path="./src/main/webapp/WEB-INF/lib/javax.servlet-3.0.jar">
+				</pathelement>
+			</classpath>			
+		</javac>
+		<war destfile = "./buildoutput/SimpleDynamicWebProject.war" webxml = "./src/main/webapp/WEB-INF/web.xml">
+		   <fileset dir = "./src/main/webapp">
+		      <include name = "**/*.*"/>
+		   </fileset>
+		</war>
+	</target>
 </project>
